@@ -1,0 +1,38 @@
+:root {
+    /* Space fire */
+  --sf100: #630A0A;
+  --sf80: #A01818;
+  --sf60: #FC7A69;
+  --sf40: #FFBFB5;
+  --sf20: #FFEDEB;
+  /* Galactic teal */
+  --gt100: #003F40;
+  --gt80: #075955;
+  --gt60: #27ABA7;
+  --gt40: #A3E3E3;
+  --gt20: #DDF5F5;
+  /* Space yellow */
+  --sy100: #765C1F;
+  --sy80: #B28C32;
+  --sy60: #F7C244;
+  --sy40: #FFD98C;
+  --sy20: #FCEFCD;
+  /* Intergalactic purpule */
+  --ip100: #252149;
+  --ip80: #492C82;
+  --ip60: #7B67C1;
+  --ip40: #BBA9E8;
+  --ip20: #E0DAF2;
+  /* Black */
+  --black100: #121212;
+  --black80: #333333;
+  --black60: #656565;
+  --black40: #9E9E9E;
+  --black20: #DDDDDD;
+  /* Others */
+  --jbg: #F1F4F9;
+  --white: #FFFFFF;
+  --overlay: rgba(0,0,0,0.8);
+  --whiteOverlay: rgba(255,255,255,0.8);
+  --transparent: transparent;
+}

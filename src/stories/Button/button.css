@@ -1,0 +1,70 @@
+@import url('../../colors/default.css');
+
+.europa-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.europa-button--primary {
+  color: var(--white);
+  background-color: var(--sf60);
+  border: 1px solid var(--sf60);
+}
+.europa-button--primary:active {
+  background-color: var(--sf40);
+}
+
+.europa-button--secondary {
+  color: var(--sf60);
+  background-color: var(--white);
+  border: 1px solid var(--sf60);
+}
+.europa-button--secondary:active {
+  background-color: var(--black20);
+}
+
+.europa-button--tertiary {
+  color: var(--sf60);
+  background-color: var(--white);
+}
+.europa-button--tertiary:active {
+  background-color: var(--black20);
+}
+
+.europa-button--mini {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.europa-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+  min-height: 48px;
+}
+
+.loader-animation {
+  width: 32px;
+  height: 32px;
+}
+
+.europa-button--primary-loading, .europa-button--primary-loading:active {
+  background-color: var(--sf20);
+  border-color: var(--sf20);
+}
+
+.europa-button--primary-disabled, .europa-button--primary-disabled:active,
+.europa-button--secondary-disabled, .europa-button--secondary-disabled:active {
+  background-color: var(--black20);
+  color: var(--white);
+  border: none;
+  cursor: not-allowed;
+}
+
+.europa-button--tertiary-disabled, .europa-button--tertiary-disabled:active {
+  color: var(--black20);
+  cursor: not-allowed;
+}
